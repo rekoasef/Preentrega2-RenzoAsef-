@@ -1,0 +1,84 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.navbar {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #121212 !important; /* Fondo negro */
+}
+.navbar-brand img {
+    width: 120px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+.social-icons a {
+    color: white;
+    font-size: 1.2rem; /* Aumenta el tamaño de los iconos */
+    text-decoration: none;
+    margin-left: 10px;
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Asegura que los enlaces sean blancos */
+}
+
+.plato-section {
+    background-color: black;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    justify-content: center;
+    height: 100vh; /* O también puedes usar un valor específico si lo prefieres */
+}
+
+.plato-img {
+    width: 100%;
+    height: 100%; /* Hace que la imagen ocupe todo el alto del contenedor */
+    object-fit: cover; /* Hace que la imagen cubra el contenedor sin distorsionarse */
+    border-radius: 5px;
+}
+
+.containerAboutUs{
+    height: 500px;
+}
+
+.tituloAboutUs, .btnMas{
+    background-color: #fdad00;
+}
+.img-fluid{
+    object-fit: contain;
+    height: 91%;
+    padding-top: 0px;
+}
+
+/* Nuestras Especialidades */
+
+.Img1 , .Img3{
+    object-fit: contain;
+    height: 70%;
+    padding-top: 0px;
+}
+
+.Img2{
+    object-fit: contain;
+    height: 65%;
+    padding-top: 10px;
+}
+
+.botonVerMas{
+    background-color: #fdad00;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-top: 0px;
+}
+
+.card{
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    
+}
