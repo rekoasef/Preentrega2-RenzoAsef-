@@ -28,7 +28,7 @@ body {
     padding: 50px 0;
     text-align: center;
     justify-content: center;
-    height: 100vh; /* O también puedes usar un valor específico si lo prefieres */
+    height: 80vh;
 }
 
 .plato-img {
@@ -47,8 +47,12 @@ body {
 }
 .img-fluid{
     object-fit: contain;
-    height: 91%;
+    height: 80%;
     padding-top: 0px;
+}
+
+.containerImgUs{
+    height: 520px;
 }
 
 /* Nuestras Especialidades */
