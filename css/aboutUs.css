@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*NAVBAR*/
+.navbar {
+    margin: 0;
+    padding: 10px 20px;
+    background-color: #121212 !important; /* Fondo negro */
+}
+.navbar-brand img {
+    width: 120px; /* Ajusta el tamaño del logo */
+    height: auto;
+}
+.social-icons a {
+    color: white;
+    font-size: 1.2rem; /* Aumenta el tamaño de los iconos */
+    text-decoration: none;
+    margin-left: 10px;
+}
+.navbar-nav .nav-link {
+    color: white !important; /* Asegura que los enlaces sean blancos */
+}
+
+/*Header*/
+
+header {
+    margin: 0 !important;
+    padding: 0 !important;
+    width: 100% !important;
+}
+
+/*Cuerpo*/
+
+.containerText{
+    color: #fdad00;
+}
+
